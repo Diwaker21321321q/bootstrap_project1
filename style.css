@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.hero_section {
+    background-image: url("./images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 58% 92%;
+    background-position: right 0 top 0;
+}
+
+.nav {
+    background-color: transparent;
+}
+
+.custom_container {
+    max-width: 1210px;
+}
+
+.heading h1 {
+    font-size: 3.2rem;
+    padding: 3rem 0rem 0rem 5rem;
+    color: #3D55C8;
+}
+
+.heading h1 span {
+    color: #344087;
+}
+
+.hero_section_para {
+    padding-left: 6rem;
+}
+
+.hero_section_btn {
+    padding-bottom: 140px;
+}
+
+/* innerAboutSection css part start here  */
+/* background-color: #F3F3F3; */
+
+.aboutSection {
+    width: 90%;
+    position: relative;
+}
+
+.innerAboutSection {
+    width: 100%;
+    background-color: white;
+    padding-top: 8%;
+}
+
+.about_section_head h2 {
+    word-break: break-all;
+}
+
+.searchBar {
+    position: absolute;
+    background-color: white;
+    top: -90px;
+    left: 0;
+    padding: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.buttonSection {
+    background-color: rgb(226, 108, 5);
+}
+
+.buttonSection button {
+    color: white;
+}
+
+.line {
+    width: 7px;
+    height: 42px;
+    background-color: #0e269c;
+}
+
+.about_section_content {
+    margin-left: 50px !important;
+}
+
+/* sale content section stat here  */
+.sale_section {
+    position: relative;
+}
+
+.upper_img {
+    position: absolute;
+    right: 0;
+    top: 36px;
+}
+
+.lower_img {
+    position: absolute;
+    top: 0;
+    right: 32px;
+}
+
+/* pricing section css part start here  */
+.inner_pricingSection {
+    width: 90%;
+    padding: 0px 70px;
+}
+
+.pricehead {
+    color: white;
+    background-color: #051a80;
+}
+
+.price_body {
+    background-color: #3D55C8;
+}
+
+.price_body2 {
+    background-color: #F7BD13;
+}
+
+.horizontal_line {
+    width: 50px;
+    height: 6px;
+    background-color: aliceblue;
+}
+
+.price_card_button button {
+    background-color: #051a80;
+    color: white;
+}
+
+/* review section css part start here  */
+
+.inner_review_section {
+    width: 90%;
+    margin: auto;
+}
+
+.review_content {
+    width: 90%;
+    margin: auto;
+}
+
+.review_left_content {
+    padding-left: 65px;
+    width: 46%;
+}
+
+.review_right_content {
+    justify-content: space-between;
+    width: 47%;
+    align-items: center;
+}
+
+.review_para p {
+    width: 90%;
+}
+
+/* choose option css part here  */
+.inner_choose_section {
+    width: 100%;
+    background-color: #051a80;
+    color: white;
+}
+
+.choose_option {
+    width: 90%;
+}
+
+.whiteline {
+    background-color: white;
+}
+
+/* customer review css page start here  */
+
+.inner_customer_review {
+    width: 86%;
+    margin: auto;
+}
+
+.round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #051a80;
+}
+
+.content {
+    position: relative;
+}
+
+.content .line {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0px;
+    width: 7%;
+    z-index: -1;
+}
+
+.customer_content {
+    border: 1px solid black;
+}
+
+.round {
+    color: white;
+    font-size: 22px;
+}
+
+/* footer section css part here  */
+.footer_section {
+    background-color: #0e269c;
+}
+
+.upper_right_footer_btn button {
+    background-color: rgb(223, 112, 26);
+    color: white;
+}
+
+.appartment_content img {
+    margin-top: 3px;
+}
+
+.horizontal_line {
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    height: 2px;
+}
+
+@media screen and (max-width: 700px) {
+    .hero_section {
+        background-size: auto;
+        background-position: 0;
+    }
+
+    .heading {
+        margin: 0;
+    }
+
+    .heading h1 {
+        padding: 1rem 0rem 0rem 1rem;
+    }
+
+    .hero_section_para {
+        padding-left: 1rem;
+    }
+
+    .hero_section_btn {
+        justify-content: center;
+    }
+
+    .inner_pricingSection {
+        padding: 0px 0px;
+    }
+
+    .innerSearchBar {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero_section_para p {
+        padding-left: 25px;
+    }
+
+    .innerAboutSection {
+        padding-top: 32%;
+    }
+
+    .about_section_content {
+        padding-top: 20px;
+        margin-left: 0px !important;
+    }
+
+    .pricing_para {
+        padding-bottom: 1rem !important;
+    }
+
+    .price_card_button,
+    .price_card_button2 {
+        padding: 1rem 0rem !important;
+    }
+
+    .review_right_oneimg img {
+        height: 190px !important;
+        width: 136px !important;
+    }
+
+    .review_right_two_img img {
+        width: 194px !important;
+    }
+
+    .review_left_content {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .inner_review_section {
+        margin-top: 0rem !important;
+        padding-top: 0rem !important;
+    }
+
+    .review_right_content {
+        width: 100%;
+    }
+
+    .review_content {
+        flex-direction: column;
+    }
+
+    .choose_option {
+        gap: 10px;
+    }
+
+    .content .line {
+        display: none;
+    }
+
+    .round {
+        display: none !important;
+    }
+
+    .inner_content {
+        flex-direction: column;
+    }
+
+    .content_head {
+        padding-top: 15px;
+        justify-content: center !important;
+    }
+
+    .content_para p {
+        text-align: center;
+    }
+
+    .div {
+        padding: 0;
+    }
+
+    .customer_head h2 {
+        text-align: center;
+        padding-top: 0rem !important;
+    }
+
+    .customer_head .line {
+        display: none !important;
+    }
+
+    .sale_para_section p {
+        text-align: center;
+    }
+
+    .upper_footer {
+        flex-direction: column;
+    }
+
+    .upper_right_footer_btn {
+        justify-content: center !important;
+    }
+}
